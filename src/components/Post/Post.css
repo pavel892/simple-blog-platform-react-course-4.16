@@ -1,0 +1,44 @@
+.post {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 62.5%;
+  border: 1px solid rgba(170, 170, 170, 1);
+  border-radius: 8px;
+}
+
+.post .post-container {
+  padding: 16px 20px 16px 20px;
+}
+
+.post-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.post-text {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #aaaaaa;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.user-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .post {
+    width: 90%;
+  }
+}

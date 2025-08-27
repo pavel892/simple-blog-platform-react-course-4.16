@@ -1,0 +1,18 @@
+.input {
+  width: 480px;
+  box-sizing: border-box;
+  height: 49px;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+  margin-top: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  padding-left: 24px;
+}
+
+.input::placeholder {
+  color: #aaaaaa;
+}

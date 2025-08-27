@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #61bb61;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #61bb61;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.button svg {
+  margin-right: 8px;
+}

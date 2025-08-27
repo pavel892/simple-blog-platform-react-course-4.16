@@ -1,0 +1,27 @@
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info svg {
+  margin-right: 10px;
+}
+
+.user-info .user-name {
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #5cb85c;
+  text-decoration: none;
+}
+
+.user-info .date {
+  font-size: 12.8px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #aaaaaa;
+}

@@ -1,0 +1,92 @@
+.article-page {
+  z-index: 1;
+  position: relative;
+}
+
+.article-body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 62.5%;
+  margin: 10px auto 118px auto;
+  padding: 24px 16px 24px 16px;
+}
+
+.edit-delete-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-delete-btns button {
+  margin: 4px;
+}
+
+pre {
+  margin-top: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.user-info-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  max-width: 600px;
+  height: 200px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-content div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}

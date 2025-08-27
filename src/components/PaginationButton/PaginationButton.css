@@ -1,0 +1,15 @@
+.pagination-button {
+  width: 41px;
+  height: 44px;
+  border: 1px solid #61bb61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -1px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+}

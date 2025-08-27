@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+
+.logo {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #61bb61;
+  font-size: 24px;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+nav svg {
+  position: relative;
+  top: 6px;
+  margin-right: 4px;
+}
+
+nav {
+  transform: translateY(-2px);
+}
+
+nav a img {
+  vertical-align: middle;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 12px;
+  color: #333333;
+}
+
+.logout-btn {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 12px;
+  border-radius: 8px;
+  width: 75px;
+  height: 30px;
+  border: 1px solid #bb6161;
+  color: #bb6161;
+  background-color: #ffffff;
+  cursor: pointer;
+}

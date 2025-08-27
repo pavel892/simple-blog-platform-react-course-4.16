@@ -1,0 +1,36 @@
+.new-article {
+  padding: 24px 10px 24px 10px;
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-article textarea {
+  box-sizing: border-box;
+  height: 100px;
+  margin-top: 16px;
+  width: 480px;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #333333;
+  padding: 16px 0px 0px 16px;
+}
+
+.tags {
+  margin-top: 16px;
+  width: 820px;
+}
+
+.new-article p {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

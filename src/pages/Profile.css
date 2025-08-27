@@ -1,0 +1,55 @@
+.profile {
+  padding: 24px 10px 24px 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-banner {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  height: 380px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.profile-banner img {
+  margin-top: 58px;
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+  font-size: 46px;
+}
+
+.profile textarea {
+  box-sizing: border-box;
+  height: 100px;
+  margin-top: 16px;
+  width: 480px;
+  border: 1px solid #aaaaaa;
+  border-radius: 8px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #333333;
+  padding: 16px 0px 0px 16px;
+}
+
+.profile p {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,15 @@
+.mainText {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.additionalText {
+  font-family: 'Source Sans 3', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #ffffff;
+}
