@@ -1,3 +1,4 @@
+import ImageWithFallback from '../ImageWithFallback';
 import './UserInfo.css';
 import { Link } from 'react-router-dom';
 
@@ -22,7 +23,7 @@ export default function UserInfo({ userName, date, image }) {
           />
         </svg>
       ) : (
-        <img
+        <ImageWithFallback
           src={image}
           alt="profile"
           style={{
